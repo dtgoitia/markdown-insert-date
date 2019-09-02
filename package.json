@@ -1,0 +1,14 @@
+{
+  "name": "markdown-insert-date",
+  "main": "./lib/markdown-insert-date",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "markdown-insert-date:toggle"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

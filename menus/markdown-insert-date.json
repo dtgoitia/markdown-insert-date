@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle markdown-insert-date",
+        "command": "markdown-insert-date:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "markdown-insert-date",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-insert-date:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
